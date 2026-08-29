@@ -9,7 +9,7 @@ export const SITE_CONFIG = {
   links: {
     // TODO: Connect live chart URL (DexScreener/Birdeye)
     chart: "#",
-    x: "https://x.com/kubolor",
-    telegram: "https://t.me/kubolor",
+    x: "https://x.com/kubolorkub",
+    telegram: "https://t.me/kubolorcoin",
   },
 } as const;
