@@ -1,5 +1,3 @@
-import "server-only";
-
 export function getSiteUrl() {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL;
   if (explicit) {

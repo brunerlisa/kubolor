@@ -1,0 +1,27 @@
+body {
+  background-image: radial-gradient(
+    ellipse at top,
+    rgba(245, 197, 66, 0.08),
+    transparent 70%
+  );
+}
+
+.glass-card {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.gold-text-gradient {
+  background-image: linear-gradient(135deg, #f5c542, #d89b1d, #ffd966);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.grid-bg {
+  background-size: 60px 60px;
+  background-image: linear-gradient(
+      rgba(245, 197, 66, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(245, 197, 66, 0.03) 1px, transparent 1px);
+}
